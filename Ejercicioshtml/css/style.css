@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.slider-contgaleria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    overflow-x: scroll ;
+}
+.slider-imagen{
+    width: 300px;
+    
+
+}
+.slider-imagen:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
